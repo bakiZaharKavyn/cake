@@ -42,6 +42,10 @@ a {
     color: #c6792b;
 }
 
+.menu flex-between {
+    gap: 95px;
+}
+
 .navigation {
     padding: 27rem 0;
     align-items: center;
@@ -90,16 +94,22 @@ h3 {
     text-transform: uppercase;
 }
 
+.logo-picture {
+    padding-bottom: 27px;
+}
+
 .main-bg {
     text-align: center;
     display: inline-block;
     padding: 20rem 0;
-    border-radius: 30rem;
+    border-radius: 50px;
     font-size: 24rem;
     background-color: #c6792b;
     color: #fff;
     letter-spacing: 1rem;
     transition: all 1s ease;
+    width: 250px;
+    height: 60px;
 }
 
 .main-bg:hover {
@@ -122,6 +132,10 @@ footer {
 
 .main-bg {
     text-align: center;
+}
+
+.tisto {
+    
 }
 
 img {
@@ -282,23 +296,35 @@ address {
     color: #fff;
 }
 
-/* @media screen and (min-width: 425rem) {
+/* @media screen and (min-width: 425px) {
     .h1,
     h2 {
         font-size: 72rem;
     }
 } */
 
-@media screen and (min-width: 768rem) {
+@media screen and (min-width: 768px) {
 
     .assortment div {
         flex-wrap: nowrap;
     }
 }
 
-@media screen and (min-width: 1024rem) {
+@media screen and (min-width: 1024px) {
 
     .assortment div {
         column-gap: 50rem;
+    }
+
+    .navigation,
+    .assortment div,
+    .work,
+    .contacts .flex-between,
+    .map,
+    .flex-between {
+        flex-wrap: nowrap;
+    }
+    .contacts-text {
+        display: block;
     }
 }
