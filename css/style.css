@@ -36,6 +36,7 @@ a {
     transition: all 1s ease;
     padding-bottom: 29rem;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 .flex-between:hover {
@@ -109,7 +110,6 @@ h3 {
     letter-spacing: 1rem;
     transition: all 1s ease;
     width: 250px;
-    height: 60px;
 }
 
 .main-bg:hover {
@@ -233,6 +233,16 @@ address {
     flex-wrap: wrap;
 }
 
+.phone {
+    width: 50px;
+    height: 60px;
+}
+
+.convert{
+    width: 50px;
+    height: 60px;
+}
+
 .contacts-text {
     display: flex;
     width: 100%;
@@ -264,6 +274,7 @@ address {
 .footer {
     padding-top: 95rem;
     min-width: 224;
+    flex-wrap: wrap;
 }
 
 .footer .flex-between {
