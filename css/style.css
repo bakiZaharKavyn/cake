@@ -37,7 +37,6 @@ a {
     transition: all 1s ease;
     padding-bottom: 29rem;
     color: #fff;
-    flex-wrap: wrap;
 }
 
 .flex-between:hover {
@@ -234,6 +233,7 @@ address {
 .phone {
     width: 50px;
     height: 60px;
+    flex-wrap: wrap;
 }
 
 .convert {
@@ -281,7 +281,7 @@ address {
 }
 
 .d2 {
-    width: 159rem;
+
 }
 
 .abc3 {
@@ -311,11 +311,6 @@ address {
     .h1,
     h2 {
         font-size: 72rem;
-    }
-
-    .tisto {
-        width: 290px;
-        height: ;
     }
 }
 
