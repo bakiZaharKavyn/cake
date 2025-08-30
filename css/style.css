@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 17px;
 }
 
 html {
@@ -338,10 +337,5 @@ address {
 
     .contacts-text {
         display: block;
-    }
-
-    .tisto {
-        width: 450px;
-        height: ;
     }
 }
